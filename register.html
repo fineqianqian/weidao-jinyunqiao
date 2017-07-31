@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="icon/iconfont.css">
+	<link rel="stylesheet" href="css/style1.css">
+	<script src="js/jquery-1.11.0.js"></script>
+    <script src="js/register.js"></script>
+    
+
+
+</head>
+<body>
+	   <img src="images/login_background.jpg" id="back" alt=""> 
+	   <img src="images/nav-logo.png" alt="" id="logo">
+	  <div  id="register1">
+	      <div id="title">
+	      	 用户注册
+	      </div>
+	       <form action="login.html" onsubmit="return checkInput()" >
+	      <input type="text" id="phone" placeholder="手机号码" onblur="checktel()">
+	      <div id="telInfo">手机号码由11位数字组成</div>
+
+	      <input type="text" id="validated" placeholder="验证码" onblur="checkvali()" >
+	      <div id="valiInfo">
+	      	  请输入验证码
+	      </div>
+	      <input type="password" id="password" placeholder="登录密码"  onblur="checkpassword()"><!-- 6-14个字母或者数字组成 -->
+	      <div id="psdInfo">密码由6-14位字母或数字组成</div>
+	      <input type="password" id="confirm" placeholder="确认密码"  onblur="confirmpassword()"
+	      >
+	      <div id="compsdInfo">请确认密码</div>
+	      <div id="icphone">
+	      	<i class="icon iconfont icon-iphone"></i>
+	      </div >
+	      <div id="icvalidated">
+
+	      	<i class="icon iconfont icon-erweima"></i>
+
+	      </div>
+	      <div id="icpassword">
+	         <i class="icon iconfont icon-mima"></i>
+	      	
+	      </div>
+	      <div id="icconfirm">
+	         <i class="icon iconfont icon-mima"></i>
+	      	
+	      </div>
+	     
+          <button  id="obtain" type="button">
+          	 获取验证码
+          </button>
+
+	      
+	      <div id="validatenum"> AAAA</div>
+	     
+	      	  
+	      	  <input type="submit" value="同意协议并提交" id="agree">
+	      </form>
+
+	      <table id="foot">
+	      	 <tr> 
+	      	    <td>
+	      	    	<a href="login.html">已注册？立即登录</a>
+	      	    </td>
+	      	    <td align="right">
+	      	    	注册即同意<a href="#">《伟达金云桥使用协议》</a>
+	      	    </td>
+	      	 	
+	      	 </tr>
+	      </table>
+
+
+
+
+
+
+
+
+
+	  	
+	  </div>
+
+
+</body>
+</html>

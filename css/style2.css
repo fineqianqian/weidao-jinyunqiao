@@ -1,0 +1,237 @@
+body{
+    background:#fedc71;
+
+	
+}
+
+#back{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:1;
+
+}
+
+#logo{
+	position:absolute;
+	top:20px;
+	left:40px;
+	z-index:2;
+	width:150px;
+
+}
+#login1{
+
+	background-color:white;
+	width:480px;
+	height:440px;
+	position:absolute;
+	bottom:260px;
+	right:120px;
+	z-index:99;
+	border-top:5px solid #FF8C00;
+	box-shadow:5px 5px 5px  lightgray;
+}
+
+
+#title{
+	width:100px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	background-color:white;
+	position:absolute;
+	border-left:5px solid  #FF8C00;
+	top:35px;
+	left:40px;
+	font-size:18px;
+	font-family:"微软雅黑";
+}
+
+
+#phone{
+	width:300px;
+	height:40px;
+	position:absolute;
+	top:100px;
+	left:120px;
+    border:2px solid lightgray;
+	/* border-color:lightgray; *//* #3CB371 */
+	border-radius:0px 6px 6px 0px;
+	font-size:20px;
+	outline:medium;
+	text-indent:12px;
+
+}
+
+#phoneInfo{
+	position:absolute;
+ 	top:150px;
+ 	left:80px;
+ 	width:200px;
+ 	height:20px;
+ 	color:#708090;
+ 	font-family:"微软雅黑";
+ 	font-size:14px;
+}
+#passwordInfo{
+	position:absolute;
+ 	top:230px;
+ 	left:80px;
+ 	width:200px;
+ 	height:20px;
+ 	color:#708090;
+ 	font-family:"微软雅黑";
+ 	font-size:14px;
+}
+
+
+
+#password{
+	width:300px;
+	height:40px;
+	position:absolute;
+	top:180px;
+	left:120px;
+    border:2px solid lightgray;
+	/* border-color:lightgray; *//* #3CB371 */
+	border-radius:0px 6px 6px 0px;
+	font-size:20px;
+	outline:medium;
+	text-indent:12px;
+}
+#icphone{
+   height:42px;
+   width:44px;
+   border-radius:6px 0px 0px 6px;
+   position:absolute;
+   left:75px;
+   top:100px;
+   border:2px solid lightgray;
+   text-align:center;
+   line-height:42px;
+   background: lightgray;
+   color:#FF8C00;
+  
+}
+
+#icphone i{
+	font-size:22px;
+}
+
+#icpassword i{
+	font-size:22px;
+}
+ 
+
+#icpassword{
+   height:42px;
+   width:44px;
+   border-radius:6px 0px 0px 6px;
+   position:absolute;
+   left:75px;
+   top:180px;
+   border:2px solid lightgray;
+   text-align:center;
+   line-height:42px;
+   background: lightgray;
+   color:#FF8C00;
+   
+}
+
+#code{
+   
+   width:120px;
+	height:40px;
+	position:absolute;
+	top:260px;
+	left:75px;
+    border:2px solid lightgray;
+	/* border-color:lightgray; *//* #3CB371 */
+	border-radius:6px 0px 0px 6px;
+	font-size:20px;
+	text-indent:12px;
+	outline:medium;
+
+}
+#icode{
+	width:100px;
+	height:42px;
+	position:absolute;
+	top:260px;
+	left:198px;
+    border:2px solid lightgray;
+	/* border-color:lightgray; *//* #3CB371 */
+	border-radius:0px 6px 6px 0px;
+	font-size:24px;
+	background-color:lightgray;
+}
+#codeInfo{
+	position:absolute;
+ 	top:310px;
+ 	left:80px;
+ 	width:200px;
+ 	height:20px;
+ 	color:#708090;
+ 	font-family:"微软雅黑";
+ 	font-size:14px;
+}
+
+#text1{
+	position:absolute;
+	top:260px;
+	right:65px;
+	font-size:14px;
+	color:#5184d0;
+	font-family:"微软雅黑";
+}
+
+#txt2{
+	 width:80px;
+	 height:32px;
+	 position:absolute;
+	 top:267px;
+	 left:210px;
+	 background-color:white;
+	 text-align:center;
+	 line-height:32px;
+	 font-size:16px;
+	 font-family:"微软雅黑";
+
+}
+#loginbtn{
+	width:344px;
+	height:42px;
+	position:absolute;
+	bottom:65px;
+	left:75px;
+    
+	/* border-color:lightgray; *//* #3CB371 */
+	border-radius:6px 6px 6px 6px;
+	font-size:24px;
+	text-align:center;
+	line-height:40px;
+	color:white;
+	background-color:#e2454e;
+	border-color:#e2454e;
+}
+
+#foot{
+	width:344px;
+	position:absolute;
+	bottom:40px;
+	left:75px;
+	font-family:"微软雅黑";
+	font-size:14px;
+}
+#foot a:link{
+	text-decoration: none;
+	color:#5184d0;
+
+}
+
+#foot a:visited{
+	text-decoration: none;
+	color:#5184d0;
+}
+
